@@ -1,21 +1,18 @@
 # Credit Card Financial Weekly Status Report
 
-Project Objective: 
+Objective:
 To develop a comprehensive credit card weekly dashboard that provides real time insights into the key performance metrics and trends, enabling stakeholders to monitor and analyse credit card operations effectively. 
-
 Tools Used:
-1)Microsoft Excel 
-2)Microsoft Power BI
-3)Power Query
-
+•	Microsoft Excel 
+•	Microsoft Power BI
+•	Power Query
 Steps Included:
-Connected Power BI to Database
-Data loading
-Data Cleaning
-Data Processing and DAX Queries
-Dashboard creation
-Insights from Analysis
-
+•	Connected Power BI to Database
+•	Data loading
+•	Data Cleaning
+•	Data Processing and DAX Queries
+•	Dashboard creation
+•	Insights from Analysis
 DAX Queries:
 AgeGroup = SWITCH(
 TRUE(),
@@ -34,7 +31,6 @@ TRUE(),
 'public cust_detail'[income] >= 70000, "High",
 "unknown"
 )
-
 week_num2 = WEEKNUM('public cc_detail'[week_start_date])
 Revenue = 'public cc_detail'[annual_fees] + 'public cc_detail'[total_trans_amt] + 'public cc_detail'[interest_earned]
 Current_week_Reveneue = CALCULATE(
@@ -49,7 +45,7 @@ ALL('public cc_detail'),
 'public cc_detail'[week_num2] = MAX('public cc_detail'[week_num2])-1))
 
 Key insights:
-Customer Analysis -
+1.	Customer Analysis -
 Revenue by Job Type:
 •	Businessmen generate the highest revenue at $17.7M, followed by White-collar workers at $10.2M and Self-employed individuals at $8.5M.
 •	Blue-collar and Government employees also contribute significantly, with revenues of $7M and $8.3M respectively.
@@ -66,7 +62,7 @@ Revenue by State:
 Total revenue:
 •	Total revenue generated approx. 57M.
 
-Transaction Analysis -
+2.	Transaction Analysis -
 Revenue by Expenditure Type:
 •	Bills generate the highest revenue at $14M, followed by Entertainment ($10M), Fuel ($10M), Grocery ($9M), and Food ($8M).
 Revenue by Card Type:
@@ -74,16 +70,16 @@ Revenue by Card Type:
 Revenue by Card Use:
 •	Swipe transactions contribute $36M, chip transactions $17M, and online transactions $4M.
 
-Additional Insights -
+3.	Additional Insights -
 Delinquency Rates by Job:
-Self-employed individuals have the highest delinquency rate at 25.53%, followed by Businessmen at 18.80% and White-collar workers at 15.19%. Retirees have the lowest delinquency rate at 9.77%.
-Overall Delinquent rate is 6.06%.
+•	Self-employed individuals have the highest delinquency rate at 25.53%, followed by Businessmen at 18.80% and White-collar workers at 15.19%. Retirees have the lowest delinquency rate at 9.77%.
+•	Overall Delinquent rate is 6.06%.
 Card Activation Percentage:
-57.46% of transactions are activated within 30 days, with the highest activation for bills (16.76%) and the lowest for travel (4.23%).
+•	57.46% of transactions are activated within 30 days, with the highest activation for bills (16.76%) and the lowest for travel (4.23%).
 Week-on-Week Revenue Changes:
-Revenue shows fluctuations on a weekly basis with notable changes such as a 28.8% increase in week 53 and a 12.8% decrease in week 52.
-Revenue increased by 28.8% in Week 53rd
-Week-On-Week percentage change in the total transaction amount
+•	Revenue shows fluctuations on a weekly basis with notable changes such as a 28.8% increase in week 53 and a 12.8% decrease in week 52.
+•	Revenue increased by 28.8% in Week 53rd.
+•	Week-On-Week percentage change in the total transaction amount
              • Week 52 to Week 53: 28.8%
              • Week 51 to Week 52: -12.8%
              • Week 50 to Week 51: 4.3%
@@ -92,6 +88,28 @@ Week-On-Week percentage change in the total transaction amount
              • Week 47 to Week 48: -3.7%
              • Week 46 to Week 47: -2.9%
              • Week 45 to Week 46: -1.5%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
