@@ -69,7 +69,7 @@ Previous_week_Reveneue = CALCULATE(
 
 ## Dashboard
 
-![01](https://github.com/user-attachments/assets/15f75707-4050-4d2b-8f91-3bfff14d4b1a)
+![01](https://github.com/user-attachments/assets/6214f146-fbc3-4173-ac30-e416bff1152b)
 ![02](https://github.com/user-attachments/assets/8872fd40-8b1e-40f9-9715-3c33496ed243)
 ![03](https://github.com/user-attachments/assets/294a6fe8-3a2e-4c52-90f2-1ca7314eff94)
 ## Insights 
