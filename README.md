@@ -1,6 +1,6 @@
 # Credit-Card-Financial-Weekly-Status-Dashboard
 
-  ![(1)Untitled_Project_V1](https://github.com/user-attachments/assets/1c084cec-6f11-4ea7-a00e-916eb617a588)
+  ![download](https://github.com/user-attachments/assets/9687b634-7886-440a-acda-ebed9b6d96a8)
 
 ## Table of Contents
 1. [Project Objective](#project-objective)
